@@ -1,8 +1,3 @@
-const fun = (name: string) => {
-  const user = {
-    name,
-  };
+import { Config } from "./config";
 
-  return user.name;
-};
-fun("koushik");
+console.log(Config.PORT);
