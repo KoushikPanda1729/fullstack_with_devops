@@ -1,4 +1,7 @@
 const fun = (name: string) => {
-  console.log(name);
+  const user = {
+    name,
+  };
+  return user.name;
 };
 fun("koushik");
