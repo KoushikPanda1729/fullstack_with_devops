@@ -4,4 +4,4 @@ const fun = (name: string) => {
   };
   return user.name;
 };
-fun("koushik");
+fun('koushik');
