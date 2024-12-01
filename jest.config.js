@@ -4,4 +4,6 @@ module.exports = {
   transform: {
     "^.+.tsx?$": ["ts-jest", {}],
   },
+  verbose: true,
+  preset: "ts-jest",
 };
