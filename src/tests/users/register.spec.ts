@@ -29,6 +29,15 @@ describe("POST /auth/register", () => {
         (responce.headers as Record<string, string>)["content-type"]
       ).toEqual(expect.stringContaining("json"));
     });
+    // it("should persist the user in the database", async () => {
+    //   const userData = {
+    //     firstName: "Koushik",
+    //     lastName: "Panda",
+    //     email: "panda@gmail.com",
+    //     password: "12345",
+    //   };
+    //   const responce = await request(app).post("/auth/register").send(userData);
+    // });
   });
   describe("Missing fields", () => {});
 });
