@@ -49,3 +49,21 @@ Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUT
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Planner (In Progress)
+
+### Admin Planner
+
+The admin planner will include the following features:
+
+- **User Management**: Add, edit, and delete users.
+- **System Monitoring**: View system health and logs.
+- **Configuration Management**: Update application settings and configurations.
+
+### User Planner
+
+The user planner will include the following features:
+
+- **Task Management**: Create, update, and delete tasks.
+- **Progress Tracking**: Monitor task progress and completion.
+- **Notifications**: Receive alerts for deadlines and updates.
